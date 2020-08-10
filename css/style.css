@@ -1,4 +1,5 @@
 *{
+    
     margin: 0px;
     padding: 0px;
 }
@@ -208,17 +209,50 @@ html{
 .card{
     border: 3px solid black;
     width: 28%;
-    height: 400px;
+    height: 500px;
     border-radius:20px ;
     display: inline-block;
     justify-content: space-between;
     margin: 23px 16px;
+    background-color: cyan;
 }
 .box{
-    display: flex;
+    display: contents;
     align-items: center;
     justify-content: space-between;
     
+}
+.img
+{
+    padding-left: 290px;
+    padding-top: 12px;
+    height: inherit;
+}
+.img img{
+    cursor: pointer;
+}
+.img img:hover{
+    transform: scale(1.2);
+}
+.item{
+    padding-top: 4px;
+    padding-left: 19px;
+    
+    height: inherit;
+}
+.details li{
+text-decoration: none;
+align-items: center;
+justify-content: center;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.details{text-align: center;
+    
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
 }
 
 
